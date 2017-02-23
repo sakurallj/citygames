@@ -1,0 +1,18 @@
+<!--/pages/test/system/system.wxml-->
+<view class="section">
+  <view class="section__title">flex-direction: row</view>
+  <view class="flex-wrp" style="flex-direction:row;" >
+    <view class="flex-item bc_green"  hover="true" hover-class="bc_red">1</view>
+    <view class="flex-item bc_red"   hover="true" hover-class="bc_blue"  >2</view>
+    <view class="flex-item bc_blue"  hover="true" hover-class="bc_red">3</view>
+    <view class="flex-item bc_blue"  hover="true" hover-class="bc_red">3</view>
+  </view>
+</view>
+<view class="section">
+  <view class="section__title">flex-direction: column</view>
+  <view class="flex-wrp" style="height: 300px;flex-direction:column;" >
+    <view class="flex-item bc_green" wx:for="{{sysInfo}}"  wx:for-index="idx" wx:for-item="itemName"  hover="true" hover-class="bc_red">{{idx}}:{{itemName}}</view>
+    <view class="flex-item bc_red" hover="true" hover-class="bc_blue" >2</view>
+    <view class="flex-item bc_blue"  hover="true" hover-class="bc_green" >3</view>
+  </view>
+</view>

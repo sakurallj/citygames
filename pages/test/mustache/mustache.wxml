@@ -1,0 +1,7 @@
+<!--pages/test/mustache/mustache.wxml-->
+<text>{\{#keyName}} {\{/keyName}}</text>
+{{#hasWW}}
+<view>
+wwwwww
+</view>
+{{/hasWW}}

@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/social/social",
+    "pages/person/person",
+    "pages/person/login/login",
+    "pages/person/personInfo/personInfo",
+    "pages/person/mymessage/mymessage",
+    "pages/person/setting/setting",
+    "pages/person/setting/invite/invite",
+    "pages/address/address",
+    "pages/test/test",
+    "pages/test/record/record",
+    "pages/test/voide/voide" ,
+    "pages/test/system/system",
+    "pages/test/mustache/mustache"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#e02e25",
+    "navigationBarTitleText": "CITY GAMES",
+    "navigationBarTextStyle":"white",
+    "backgroundColor": "#fff" 
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor":"#e02e25",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"赛事",
+      "iconPath":"pages/images/icon_event.png",
+      "selectedIconPath":"pages/images/icon_event_hover.png"
+    },{
+      "pagePath":"pages/social/social",
+      "text":"球友圈",
+      "iconPath":"pages/images/friend-normal.png",
+      "selectedIconPath":"pages/images/friend-active.png"
+    },{
+      "pagePath":"pages/person/person",
+      "text":"我的",
+      "iconPath":"pages/images/me-normal.png",
+      "selectedIconPath":"pages/images/me-active.png"
+    },{
+      "pagePath":"pages/test/test",
+      "text":"test",
+      "iconPath":"pages/images/team-create-bb-normal.png",
+      "selectedIconPath":"pages/images/team-create-bb-active.png"
+    }]
+  },
+  "debug":true
+}
